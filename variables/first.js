@@ -15,3 +15,13 @@ console.log("Null means pura khali nothing  " + x);
 
 undefine_wali_vcalue = undefined;
 console.log("Means Hamne koi value set nhi ki hai :--" +undefine_wali_vcalue);
+
+isFollow = true
+console.log("sayd : -- "+isFollow);
+
+// note : javascript is a dynamicly typed language means hme apne variable ka type nhi batana pdta//
+
+//Example//
+
+age = "Ankit";
+console.log(age);
