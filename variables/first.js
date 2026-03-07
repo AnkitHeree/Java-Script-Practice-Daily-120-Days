@@ -1,1 +1,1 @@
-console.log("Its Ankit Here")
+//variables are container that is use to store values//
