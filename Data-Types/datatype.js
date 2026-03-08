@@ -25,5 +25,20 @@ console.log(boy);  // these all are primitive data types ye fix hai
 
 // non primitive data type : object , arrays , Functions this all non primitive datatypes
 
-// object is a collaction of values like : - age name number boolean  etc  these all collecte data is called object;
+// object is a collaction of value / variables like : - age name number boolean  etc  these all collecte data is called object;
+// key : values = object
+const student = 
+{ 
+name:"ankit",
+  age:27,
+  marks:85,
+  isPass:true
+};
+
+console.log(student);
+
+console.log(student["age"])  // iss trh hm ak ak values ko bhee access kr skte hai 
+console.log(student["name"])
+console.log(student["marks"])
+console.log(student["isPass"])
 
