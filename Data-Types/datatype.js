@@ -1,65 +1,83 @@
+// 
+
 // Datatypes in jas Number, string, boolean, Undefine, null, BigInt, symbol
 
-//there are two types of data types 1 Premitive :-- that is fix data type 2 NonPrimitive : -- Objects
+// //there are two types of data types 1 Premitive :-- that is fix data type 2 NonPrimitive : -- Objects
 
-let age = 24;
-console.log(age);
+// let age = 24;
+// console.log(age);
 
-let name = "Ankit";
-console.log(name);
+// let name = "Ankit";
+// console.log(name);
 
-let isFollow = true;
-console.log(isFollow);
+// let isFollow = true;
+// console.log(isFollow);
 
-let people;
-console.log(people);
+// let people;
+// console.log(people);
 
-let ankit = null;
-console.log(ankit);
+// let ankit = null;
+// console.log(ankit);
 
-let nuber = BigInt("100000");
-console.log(nuber)
+// let nuber = BigInt("100000");
+// console.log(nuber)
 
-let boy = Symbol("ankit");
-console.log(boy);  // these all are primitive data types ye fix hai 
+// let boy = Symbol("ankit");
+// console.log(boy);  // these all are primitive data types ye fix hai 
 
-// non primitive data type : object , arrays , Functions this all non primitive datatypes
+// // non primitive data type : object , arrays , Functions this all non primitive datatypes
 
-// object is a collaction of value / variables like : - age name number boolean  etc  these all collecte data is called object;
-// key : values = object
+// // object is a collaction of value / variables like : - age name number boolean  etc  these all collecte data is called object;
+// // key : values = object
 
-// note : -- apan log const variables ke value ko change nhi kr skte lakin const ke object me jo keys hai  usko aaram se change kr skte hai jo ki line no 41 se start hai
+// // note : -- apan log const variables ke value ko change nhi kr skte lakin const ke object me jo keys hai  usko aaram se change kr skte hai jo ki line no 41 se start hai
 
-const student =
-{
-    name: "ankit",
-    age: 27,  // yha age 27 hai
-    marks: 85,
-    isPass: true
-};
+// const student =
+// {
+//     name: "ankit",
+//     age: 27,  // yha age 27 hai
+//     marks: 85,
+//     isPass: true
+// };
 
-// ab man lo agr hme sutdent me age ko badahana hai like 27 to 28 to ye object me kaise hoga
-student["age"] = student["age"] + 1;  // is trh hm object ke values  me change kr skte hai
-student["name"] = "Omkar yadav";
-student["marks"] = 89;
-student["isPass"] = false;
+// // ab man lo agr hme sutdent me age ko badahana hai like 27 to 28 to ye object me kaise hoga
+// student["age"] = student["age"] + 1;  // is trh hm object ke values  me change kr skte hai
+// student["name"] = "Omkar yadav";
+// student["marks"] = 89;
+// student["isPass"] = false;
 
 
-console.log(student);  // full detail about student
+// console.log(student);  // full detail about student
 
-console.log(student["age"])  // iss trh hm ak ak values ko bhee access kr skte hai 
-console.log(student["name"]) // " " cod is impoortent in tis method
-console.log(student["marks"])
-console.log(student["isPass"])
+// console.log(student["age"])  // iss trh hm ak ak values ko bhee access kr skte hai 
+// console.log(student["name"]) // " " cod is impoortent in tis method
+// console.log(student["marks"])
+// console.log(student["isPass"])
 
-// ya phir aise
+// // ya phir aise
 
-console.log(student.name)
-console.log(student.age)
-console.log(student.marks)
-console.log(student.isPass) // Dono trh se apn object ke values ko access kr skte hai
+// console.log(student.name)
+// console.log(student.age)
+// console.log(student.marks)
+// console.log(student.isPass) // Dono trh se apn object ke values ko access kr skte hai
+
+
+// 
 
 // ab man lo agr hme sutdent me age ko badahana hai like 27 to 28 to ye object me kaise hoga 
+
+//**Practice **
+
+//Q1 : - Create a const object called "Product " to store information shows in picture 1:14:47
+
+const product ={
+    productName:"Cloths",
+    Rating : 4,
+    offers : 5,
+    Price : 2201
+};
+
+console.log(product);
 
 
 
