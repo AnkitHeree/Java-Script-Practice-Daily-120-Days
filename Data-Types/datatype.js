@@ -35,10 +35,10 @@ name:"ankit",
   isPass:true
 };
 
-console.log(student);
+console.log(student);  // full detail about student
 
 console.log(student["age"])  // iss trh hm ak ak values ko bhee access kr skte hai 
-console.log(student["name"])
+console.log(student["name"]) // " " cod is impoortent in tis method
 console.log(student["marks"])
 console.log(student["isPass"])
 
