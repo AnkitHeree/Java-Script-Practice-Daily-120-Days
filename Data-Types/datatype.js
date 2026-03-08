@@ -79,5 +79,19 @@ const product ={
 
 console.log(product);
 
+//Q2 Same
 
+const profile = {
+    userName: "Ankit Yadav",
+    isFollow : false,
+    Posts : 123,
+    Followers : 100 ,
+    Following : 10,
+};
+
+console.log(profile);
+console.log(typeof profile); // type of profile object hai lakin yha 
+console.log(typeof profile ["userName"]); // typeof userName String hai to is trh apan data type chaek kr skte hai
+console.log(typeof profile ["isFollow"]);
+console.log(typeof profile ["Posts"]);
 
