@@ -27,6 +27,9 @@ console.log(boy);  // these all are primitive data types ye fix hai
 
 // object is a collaction of value / variables like : - age name number boolean  etc  these all collecte data is called object;
 // key : values = object
+
+// note : -- apan log const variables ke value ko change nhi kr skte lakin const ke object me jo keys hai  usko aaram se change kr skte hai jo ki line no 41 se start hai
+
 const student =
 {
     name: "ankit",
@@ -36,7 +39,7 @@ const student =
 };
 
 // ab man lo agr hme sutdent me age ko badahana hai like 27 to 28 to ye object me kaise hoga
-student["age"] = student["age"] + 1;
+student["age"] = student["age"] + 1;  // is trh hm object ke values  me change kr skte hai
 student["name"] = "Omkar yadav";
 student["marks"] = 89;
 student["isPass"] = false;
