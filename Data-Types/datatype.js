@@ -14,7 +14,7 @@ console.log(isFollow);
 let people;
 console.log(people);
 
-let ankit=null;
+let ankit = null;
 console.log(ankit);
 
 let nuber = BigInt("100000");
@@ -27,17 +27,20 @@ console.log(boy);  // these all are primitive data types ye fix hai
 
 // object is a collaction of value / variables like : - age name number boolean  etc  these all collecte data is called object;
 // key : values = object
-const student = 
-{ 
-name:"ankit",
-  age:27,  // yha age 27 hai
-  marks:85,
-  isPass:true
+const student =
+{
+    name: "ankit",
+    age: 27,  // yha age 27 hai
+    marks: 85,
+    isPass: true
 };
 
 // ab man lo agr hme sutdent me age ko badahana hai like 27 to 28 to ye object me kaise hoga
-student["age"] = student["age"] +1
-console.log(student["age"]) 
+student["age"] = student["age"] + 1;
+student["name"] = "Omkar yadav";
+student["marks"] = 89;
+student["isPass"] = false;
+
 
 console.log(student);  // full detail about student
 
