@@ -42,3 +42,10 @@ console.log(student["name"])
 console.log(student["marks"])
 console.log(student["isPass"])
 
+// ya phir aise
+
+console.log(student.name)
+console.log(student.age)
+console.log(student.marks)
+console.log(student.isPass) // Dono trh se apn object ke values ko access kr skte hai
+
