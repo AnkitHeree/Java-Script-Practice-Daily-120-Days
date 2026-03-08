@@ -30,10 +30,14 @@ console.log(boy);  // these all are primitive data types ye fix hai
 const student = 
 { 
 name:"ankit",
-  age:27,
+  age:27,  // yha age 27 hai
   marks:85,
   isPass:true
 };
+
+// ab man lo agr hme sutdent me age ko badahana hai like 27 to 28 to ye object me kaise hoga
+student["age"] = student["age"] +1
+console.log(student["age"]) 
 
 console.log(student);  // full detail about student
 
@@ -48,4 +52,8 @@ console.log(student.name)
 console.log(student.age)
 console.log(student.marks)
 console.log(student.isPass) // Dono trh se apn object ke values ko access kr skte hai
+
+// ab man lo agr hme sutdent me age ko badahana hai like 27 to 28 to ye object me kaise hoga 
+
+
 
