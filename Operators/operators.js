@@ -11,12 +11,12 @@
 
 // unary Operator in javascript  1 increment++   2 decrement--
 
-let a=10;
- let b=2;
- console.log(a+b);
- b--; //decrement
- console.log(b)
- a++;  //increment
- console.log(a)
+// let a=10;
+//  let b=2;
+//  console.log(a+b);
+//  b--; //post decrement
+//  console.log(b);
+//  a++;  //post increment
+//  console.log(a);
 
 
