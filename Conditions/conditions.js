@@ -19,13 +19,26 @@
 
 // console.log(color)
 
-let mode = "light";
-let color;
-if(mode==="Dark"){
-    color="black";
-}
-else{
-    color="white";
-}
+// let mode = "light";
+// let color;
+// if(mode==="Dark"){
+//     color="black";
+// }
+// else{
+//     color="white";
+// }
 
-console.log(color);
+// console.log(color);
+
+
+// even odd
+
+let num=20;
+if(num % 2 === 0)
+{
+console.log("num is even")
+}
+else
+{
+console.log("odd")
+}
