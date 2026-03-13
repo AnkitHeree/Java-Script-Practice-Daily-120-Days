@@ -1,8 +1,31 @@
-let a=20;
-let b=10;
-if(a<b){
-    console.log("a is small");
+// let a=20;
+// let b=10;
+// if(a<b){
+//     console.log("a is small");
+// }
+// else{
+//    console.log ("a is big");
+// }
+
+
+// let mode = "light"
+// let color;
+// if(mode==="Dark"){
+//     color="black";
+// }
+// if(mode=== "light"){
+//     color="white"
+// }
+
+// console.log(color)
+
+let mode = "light";
+let color;
+if(mode==="Dark"){
+    color="black";
 }
 else{
-   console.log ("a is big");
+    color="white";
 }
+
+console.log(color);
