@@ -56,16 +56,9 @@
 
 //nested if condition ke andar condition
 
-let isEmailCorrect = true;
-let isOtp = true;
-if (isEmailCorrect) {
-    if (isOtp) {
-        console.log("You Are Login Successfully");
-    }
-    else {
-        console.log("arre o bhai sab shi otp daal lo");
-    }
-}
+// 
+
+// input
 
 
 
