@@ -32,23 +32,40 @@
 
 //if else
 
-    // let a=10;
-    // if(a=10){
-    //     console.log("true")
-    // }
-    // else{
-    //     console.log("false")
-    // }
+// let a=10;
+// if(a=10){
+//     console.log("true")
+// }
+// else{
+//     console.log("false")
+// }
 
 //if else if else
 
-    let marks=90;
-     if(marks>=80){
-        console.log("You Got above 80")
+// let marks=90;
+//  if(marks>=80){
+//     console.log("You Got above 80")
+// }
+//  else if(marks<=79 && marks >=50){
+//     console.log("You are Below the 80")
+//  }
+//  else{
+//     console.log("Muynna Fail hai tu")
+//  }
+
+
+//nested if condition ke andar condition
+
+let isEmailCorrect = true;
+let isOtp = true;
+if (isEmailCorrect) {
+    if (isOtp) {
+        console.log("You Are Login Successfully");
     }
-     else if(marks<=79 && marks >=50){
-        console.log("You are Below the 80")
-     }
-     else{
-        console.log("Muynna Fail hai tu")
-     }
+    else {
+        console.log("arre o bhai sab shi otp daal lo");
+    }
+}
+
+
+
