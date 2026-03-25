@@ -48,3 +48,18 @@
 // }
 
 // console.log(foo());   // undefine
+
+
+// 4 function expressions  // jb ak function variable me store kiya jata hai to use FE khte hai
+
+
+// let fun = function(){
+//     console.log("hello")
+// }
+// fun();
+
+let fun = function(num1,num2){
+    console.log("hello")
+    return num1 + num2
+}
+console.log(fun(30 ,40));
