@@ -58,8 +58,8 @@
 // }
 // fun();
 
-let fun = function(num1,num2){
-    console.log("hello")
-    return num1 + num2
-}
-console.log(fun(30 ,40));
+// let fun = function(num1,num2){
+//     console.log("hello")
+//     return num1 + num2
+// }
+// console.log(fun(30 ,40));
