@@ -52,9 +52,19 @@
 
 // using array
 
-let a =20;
-let b=30;
-arr=[a,b];
-a=arr[1];
-b=arr[0];
+// let a =20;
+// let b=30;
+// arr=[a,b];
+// a=arr[1];
+// b=arr[0];
+// console.log(a,b)
+
+
+//without + and -
+
+let a =12
+let b =30
+a=a ^ b;
+b=a ^ b;
+a=a ^ b;
 console.log(a,b)
