@@ -19,3 +19,8 @@ console.log(hetrogenious)
 
 hetrogenious.pop("ankit3");
 console.log(hetrogenious)  // deleted ankit 3
+
+// add at  start 
+
+hetrogenious.unshift(11)
+console.log(hetrogenious)  // 11 add to the start
