@@ -29,3 +29,11 @@
 
 // hetrogenious.shift() 
 // console.log(hetrogenious)  // 11 deleted from starting  // dont pefer shift and unshift
+ let arr =[10,20,30,40]
+ for (let i = 0;i<=arr.length;i++){
+    console.log(i )  // 1,2,3,4   // .length use to tell length of array
+ }
+
+ for(num of arr){
+    console.log(num)  // it direct print value
+ }
