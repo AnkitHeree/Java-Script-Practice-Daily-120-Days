@@ -101,3 +101,66 @@
 // console.log(name.join("*")); 
 // console.log(name.join("  ")); 
 // console.log(name.join("----"));  // jo add krenge op aa jayega join se
+
+
+
+// index pta kr skte hai using 
+
+// arr = ["ankit","hello","lol"]
+// console.log(arr.indexOf("ankit"))
+// console.log(arr.indexOf("lol"))   // is trh or agr index nhi rhega to -1 degaa
+
+
+
+// arr = ["ankit","hello","lol" , "ankit"]  //agr koi value 2 bar ho to bhee indexOf sirf 1 wala he retun krega 
+
+// //indexOf
+
+//  console.log(arr.indexOf("ankit"))
+
+//  //lastIndexOf
+
+//   console.log(arr.lastIndexOf("ankit"))  // lastOfindex ka use krke hm o double ankit wale index ko piche se access kr skte hai 
+
+//   //includes
+
+//   console.log(arr.includes("lol"))  // true false me kya lol hai array me 
+
+
+
+
+// sorting  assemnding order in array 
+
+// arr = ["ankit","hello","lol" , "quet" ,"noit"]  //agr koi value 2 bar ho to bhee indexOf sirf 1 wala he retun krega 
+//  arr.sort();
+
+//  console.log(arr)  // alphabets wise 
+
+//  // if small charactor hai to O ASCII table ke according chlega Ex 
+
+//  arr = ["Ankit" , "ankit" ,"Rahul","rahul" ,"Sumit","sumit"]
+//  arr.sort(); //assending order
+//  console.log(arr)  // ye Data ko ASCII Table ke throw yad rkhta hai
+
+// // use to reverse array
+
+//  arr.reverse(); //desending order
+//  console.log(arr)
+
+
+
+arr = [100,99,30,20,50] 
+arr2 = ["ankit","Ankit",30 , 40 ,60,false,true]
+
+ arr.sort();
+ arr2.sort()
+ console.log(arr)  // ye bhee asscii table ke according he sort hoga later wise phle 1 hai to ASCII chek Phir 
+console.log(arr2)
+ // note sorting charactor ke basis par hoti hai in js me arry ki because arry me varity of data store ho skte hai in js
+
+ 
+
+ //but Number ko Assending order me laa skte hai using a function
+arr = [100,99,30,20,50]
+ arr.sort((a,b)=>a-b);
+ console.log(arr)   // lo ho gya sir assending order
