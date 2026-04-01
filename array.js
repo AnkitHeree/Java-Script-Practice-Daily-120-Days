@@ -53,4 +53,51 @@
 
 
 
-// spreed oprator
+// spreed oprator * Importent  - combine
+
+// 1 trika
+
+// const arr = [10,30,40,50]
+// const arr2=[0,1,2,3]
+// arr.push(arr2)
+// console.log(arr)  //output and arry to judega but [] ye bracket bhee aa yayenge aray me
+
+// 2 Safe Trika
+
+
+// const arr = [10,30,40,50]
+// const arr2=[0,1,2,3]
+// const arr4 = ["ankit","yadav",false]
+// const arr5 = [0.1,0.2,0.3]
+// const arr3 = arr.concat(arr2 ,arr4, arr5)  // concat mtlb jodna  jitne chahe utne jod skte hai ex
+
+// console.log(arr3) 
+
+
+
+//arr.spred -- arry ko tod ke ak me store krta hai 
+// 3 trika 
+
+
+// const arr = [10,30,40,50]
+// const arr2=[0,1,2,3]
+// const arr4 = ["ankit","yadav",false]
+
+// const arr3 = [...arr,...arr2 ,...arr4,] //todke element nikal ke ak me add kr deta hai most used
+
+// console.log(arr3) 
+
+
+
+
+//arry tostring arry string bn jayega
+
+// const name = ["alice", "ankit ","bob"]
+// console.log(name.toString());   // ye array string bn jayega 
+
+// // join same kam krta hai arry to string bass isme kuch alg jaise 
+
+// console.log(name.join("-")); 
+// console.log(name.join("*")); 
+// console.log(name.join("  ")); 
+// console.log(name.join("----"));  // jo add krenge op aa jayega join se
