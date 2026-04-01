@@ -29,11 +29,28 @@
 
 // hetrogenious.shift() 
 // console.log(hetrogenious)  // 11 deleted from starting  // dont pefer shift and unshift
- let arr =[10,20,30,40]
- for (let i = 0;i<=arr.length;i++){
-    console.log(i )  // 1,2,3,4   // .length use to tell length of array
- }
+//  let arr =[10,20,30,40]
+//  for (let i = 0;i<=arr.length;i++){
+//     console.log(i )  // 1,2,3,4   // .length use to tell length of array
+//  }
 
- for(num of arr){
-    console.log(num)  // it direct print value
- }
+//  for(num of arr){
+//     console.log(num)  // it direct print value
+//  }
+
+
+// slice of Array beech ka part nikalna
+
+// let att = [1,2,3,4,5]
+// const arr2 = att.slice(2,4)
+
+// console.log(att)
+
+// // console.log(att.splice(1,3)) //  isme hm original arry me deta htate hai mtlb beech me se part bahr nikalna in array aur ye part array se niukl jayega Ex
+// console.log(att)  // sirf 1 or 5 bache hai ab
+// const att2 = att.splice(1,3,"ankit",21)  // extract arry phir usme add bhee kr rhe hai 
+// console.log(att)
+
+
+
+// spreed oprator

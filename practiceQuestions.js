@@ -74,5 +74,5 @@ let b =20;
 let input = "";
 
 
-if(input==)
+if(input==="");
 
