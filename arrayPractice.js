@@ -76,3 +76,19 @@
 //     }
 // }
 //done
+
+
+// Count Occurrence  koi number kitni bar ayya
+
+// const Occurence = [1,2,3,4,3,2,1,,3,5,2]
+// let count = 2
+// let aaya = 0
+// for(let i =0;i<Occurence.length;i++){
+//     if(count == Occurence[i]){
+//         aaya++;
+//        console.log(count)
+//     }
+   
+// }
+// console.log("Ye rha Result itni Bar ayya 2 :::>>",aaya)
+ 
