@@ -4,5 +4,5 @@ let arr = [3,4,5,6,7]
 let sum = 0;
 for(let i=0;i<arr.length;i++){
     sum = sum + arr[i];
-    console.log(sum)
+    console.log(sum)   // output will 3 ,7 ,12,18,25
 }
