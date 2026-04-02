@@ -61,6 +61,18 @@
 
 // reverse arr 
 
-let arr = [0,3,5,6,7,8]
-arr.reverse()
-console.log(arr)
+// let arr = [0,3,5,6,7,8]
+// arr.reverse()
+// console.log(arr)
+
+
+// Check Number Exists or Not
+
+// let arr = [0,3,5,6,7,8]
+// let target = 6;
+// for(let i = 0; i<arr.length; i++){
+//     if(arr[i] == target){
+//         console.log("Yes Target Exist That is " , arr[i])
+//     }
+// }
+//done
