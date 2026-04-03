@@ -92,3 +92,14 @@
 // }
 // console.log("Ye rha Result itni Bar ayya 2 :::>>",aaya)
  
+
+// Find Minimum Number
+
+let arr = [9,4,2,1,6,8,0]
+let minum = arr[0]
+for(let i=0; i<arr.length; i++){
+    if(minum>arr[i]){
+        minum=arr[i]
+    }
+}
+console.log(minum)
