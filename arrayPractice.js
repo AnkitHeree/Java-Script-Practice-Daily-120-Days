@@ -95,11 +95,32 @@
 
 // Find Minimum Number
 
-let arr = [9,4,2,1,6,8,0]
-let minum = arr[0]
-for(let i=0; i<arr.length; i++){
-    if(minum>arr[i]){
-        minum=arr[i]
+// let arr = [9,4,2,1,6,8,0]
+// let minum = arr[0]
+// for(let i=0; i<arr.length; i++){
+//     if(minum>arr[i]){
+//         minum=arr[i]
+//     }
+// }
+// console.log(minum)
+
+
+// Thoda Sochna Padega 😈 find second largest number
+
+let arr = [10,90,9,6,900]
+
+let maxLarge = -Infinity
+let maxLarge2 = -Infinity
+
+for(let i = 0; i < arr.length; i++){
+    if(arr[i] > maxLarge){
+        maxLarge2 = maxLarge;
+        maxLarge = arr[i];
+    }
+    else if(arr[i] > maxLarge2 && arr[i] !== maxLarge){
+        maxLarge2 = arr[i];
     }
 }
-console.log(minum)
+
+console.log(maxLarge2)
+
