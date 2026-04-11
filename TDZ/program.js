@@ -21,8 +21,10 @@
 //temporal Dead Zone is A time Sice when this let variable was hoisted and till it is initialize some values that time between them its known as the TDZ
 //Ex :
 
-console.log(a)
-let a =10;
+// console.log(a)
+// let a =10;
 
-
+console.log("ankit")
+// let a =10
+// let a =20  canot Declare like this 
 
