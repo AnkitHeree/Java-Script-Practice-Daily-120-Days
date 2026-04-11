@@ -45,7 +45,7 @@ let b = 100;
      console.log(b)
     console.log(c)  // shadowing mtlb jo value a me aayegi vo inner me se he phle aayege outer will not assign in that
 }
-console.log(b) // if we tryin this it will also print 10
+console.log(b) // if we trying this it will also print 10
 
 
 
