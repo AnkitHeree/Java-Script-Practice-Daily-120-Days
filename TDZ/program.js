@@ -16,5 +16,13 @@
 // console.log(a) // now we can access it
 // var b =20;
 
+// what is temporal Dead Zone
+
+//temporal Dead Zone is A time Sice when this let variable was hoisted and till it is initialize some values that time between them its known as the TDZ
+//Ex :
+
+console.log(a)
+let a =10;
+
 
 
