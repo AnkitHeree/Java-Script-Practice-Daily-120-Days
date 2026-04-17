@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="str" placeholder="Enter Your Name">
+    <small id="text"></small>
+
+    <div id="history"></div>
+    <button id="Btn">convert</button>
+
+    <script>
+
+        let str = document.querySelector("#str")
+        let text = document.querySelector("#text")
+        let Btn = document.querySelector("#Btn")
+       
+        Btn.addEventListener("click", function () {
+    let name = str.value.trim()
+    let store = ""
+
+    for (let i = name.length - 1; i >= 0; i--) {
+        store += name[i]
+    }
+
+    text.innerText = store
+
+    let history = JSON.parse(localStorage.getItem("names")) || []
+    history.push(store)
+    localStorage.setItem("names", JSON.stringify(history))
+
+    showHistory()  // ✅ LIVE UPDATE
+})
+
+        function showHistory() {
+            str.addEventListener("input", showHistory)
+    let history = JSON.parse(localStorage.getItem("names")) || []
+    let historyDiv = document.getElementById("history")
+
+    historyDiv.innerHTML = ""
+
+    history.forEach((item) => {
+        let p = document.createElement("p")
+        p.innerText = item
+        historyDiv.appendChild(p)
+    })
+}
+
+// page load hote hi call karo
+showHistory()
+
+    </script>
+</body>
+</html>
