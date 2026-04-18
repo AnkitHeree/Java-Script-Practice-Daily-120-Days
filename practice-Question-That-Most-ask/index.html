@@ -4,22 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            position: relative;
+            top: 10px;
+        }
+        .containr{
+            position: absolute;
+            top: 2px;
+            background: black;
+            color: antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 50px;
+            border-radius: 20px;
+        }
+
+        input{
+            width: 100%;
+            padding: 10px 3px;
+            border-radius: 8px;
+        }
+
+        #Btn{
+            margin: 5px;
+            width: 100%;
+            padding: 10px 20px;
+            color: white;
+            background-color: green;
+        }
+
+        #history{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 40px;
+            background-color: yellow;
+            color: rgb(15, 15, 15);
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+    </style>
 </head>
 <body>
-    <input type="text" name="" id="str" placeholder="Enter Your Name">
+   <div class="containr">
+     <input type="text" name="" id="str" placeholder="Enter Your Name">
     <small id="text"></small>
 
     <button id="Btn">convert</button>
+     <button id="Dlt">Delete</button>
     <div id="history"></div>
+   </div>
 
     <script>
 
         let str = document.querySelector("#str")
         let text = document.querySelector("#text")
         let Btn = document.querySelector("#Btn")
+        let Dlt = document.querySelector("#Dlt")
        
         Btn.addEventListener("click", function () {
     let name = str.value.trim()
+    if(name ===""){
+        text.innerText="please enter a name";
+        text.style.color = "red"
+        return;
+    }
     let store = ""
 
     for (let i = name.length - 1; i >= 0; i--) {
@@ -36,7 +95,7 @@
 })
 
         function showHistory() {
-            str.addEventListener("input", showHistory)
+            
     let history = JSON.parse(localStorage.getItem("names")) || []
     let historyDiv = document.getElementById("history")
 
@@ -51,6 +110,11 @@
 
 // page load hote hi call karo
 showHistory()
+
+Dlt.addEventListener("click", function(){
+    localStorage.removeItem("names");
+    showHistory(); // UI bhi clear karo
+});
 
     </script>
 </body>
