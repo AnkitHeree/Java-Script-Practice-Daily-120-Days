@@ -36,7 +36,7 @@
 // if we have same name variable outside the block so the block side variable will shadow outer global variable
 // ex
 
-let b = 100;
+
 {
     var a =10
     let b =20
